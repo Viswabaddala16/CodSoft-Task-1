@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    background-color: #efa40f;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-container .left-nav{
+    padding: 5.6px;
+    display: inline-block;
+
+    /* border: 2px solid green; */
+}
+.left-nav a{
+    margin: 10px;
+    font-size: 10px;
+    
+}
+table,th{
+    /* table-layout: fixed; */
+    width: 50%;
+    border-collapse: collapse;
+    border-right: 2px solid white;
+    
+}
+th a{
+    font-size: 15px;
+}
+
+
+.right-nav{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    border-left: 2px solid white;
+}
+.contact-div{
+    display: flex;
+    gap: 15px;
+    margin-left: -50%;
+    /* border-right: 2px solid yellow; */
+    
+}
+
+button{
+    
+    border-style: double;
+    padding: 5px;
+    color: white;
+    border-color: white;
+    background-color: orange;
+    border-radius: 20px;
+    outline: .12px solid #ffffff;
+}
+.landing-page{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.landing-img{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    margin-left: 1%;
+}
+.landing-page{
+    /* border: 2px solid blue; */
+    height: 80px;
+}
+.landing-bar{
+    margin-left: -15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-bar a{
+    margin: 10px;
+    font-size: 12px;
+
+    font-weight: 600;
+    text-decoration: none;
+}
+/* backgroung image css goes here */
+.background-image{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background-image: url("./backgroundImage.png.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -1px;
+    /* border: 3px solid darkblue; */
+}
+.blur span:nth-child(1){
+ 
+    color: transparent;
+    text-shadow: 0 0 4px lightyellow;
+    
+    font-family: 'Carme', sans-serif;
+    
+}
+
+/* under image div styling goes here */
+.down-image{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(252,175,97),rgb(225,73,179));
+}
+.down-image div{
+    margin: 40px 30px 25px 140px;
+    
+}
+.down-image div p{
+    font-size: 10px;
+}
+.down-image div i span{
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 10;
+}
+
+/*  about section goes here  */
+
+.about-page{
+    /* border: 1px solid blue; */
+
+    display: flex;
+    margin-left: -15%;
+    justify-content: space-around;
+    height: 22.25vh;
+}
+.about-content{
+    margin-left: 3%;
+}
+.about-content button{
+    height: fit-content;
+    padding: 2px 4px 2px 4px;
+    font-size: 10px;
+    margin-top: 0;
+    margin-left: -5px;
+    background-image: linear-gradient(to right,rgb(252,175,97),rgb(225,73,179));
+}
+.img-container{
+    border: 2px solid red;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+}
+.image-container {
+  height: 30px;
+  width: 300px;
+  top: 100px;
+  left: -50px;
+  margin-left: -35%;
+  position: relative;
+  border: 3px solid #ec7608; /* Border color is optional */ 
+}
+
+ .center{
+  margin: 0;
+  position: absolute;
+  top: -90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* our services goes here */
+.ourservices{
+    
+    width: 100vw;
+    
+    padding: 0;
+    height: 22.7vh;
+    /* border: 1px solid green; */
+    
+}
+.ourservices div{
+    margin-top: 5px;
+    display: flex;
+    margin-left: 10%;
+    
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+}
+.ourservices div img{
+    margin: 0 20px  0 0 ;
+}
+.ourservices h1{
+    font-size: 15px;
+    font-weight: 600;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10%;
+    padding: 0;
+
+}
+/* over image we have div with one end cirle */
+
+.parent .divider{
+    width: 120px;
+    height: 30px;
+    /* display: block; */
+    position: absolute;
+    
+    top: 85%;
+    background-color:#fff;
+    border-top-left-radius: 10px;
+}
+.divider .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 1px;
+    padding: 5px;
+    position: relative;
+    margin-left: -88px;
+    background-color: #f77518;
+}
+.parent{
+    /* border: 2px solid blue; */
+    position: relative;
+}
